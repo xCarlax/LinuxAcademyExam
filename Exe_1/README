@@ -1,0 +1,22 @@
+## Esercizio 1 - (Da 0 a 10 punti)
+
+Il candidato realizzi uno script shell in grado di creare 15 file il cui nome
+abbia un prefisso costante `file-` seguito dal numero progressivo (da 1 a 15) e
+terminanti con "estensione" `.txt`. I nomi devono avere tutti la stessa
+lunghezza, in particolare il progressivo numerico deve essere allineato a
+sinistra con tanti zeri quanti ne servono ad eguagliare la lunghezza del
+massimo numero generato. Ad esempio:
+
+- file-01.txt
+- file-02.txt
+- ...
+- file-14.txt
+- file-15.txt
+
+In ognuno dei file generati dovranno essere inserite 10 parole estratte a caso
+dal file `/usr/share/dict/words`, una per riga.
+
+> BONUS POINTS (Da 0 a 5 punti): Il candidato effettui, per i soli file di
+> numerazione dispari, una copia del file cambiando il nome da `file-xx.txt`
+> a `file xx.text`, ovvero cambiando "l'estensione" in `.text` ed il
+> trattino `"-"` in `" " (spazio)`.

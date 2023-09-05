@@ -1,0 +1,22 @@
+## Esercizio 2 - (Da 0 a 10 punti)
+
+Il file `connessioni.csv` contiene dati in formato CSV, separati da `;`. La sua
+struttura prevede le colonne "Data Ora", "Host IP", "Username", "Password",
+"Esito Connessione".
+
+Esempio:
+
+```csv
+Data Ora;Host IP;Username;Password;Esito Connessione
+01 Mar 2023 09:57:33;1.2.3.4;bit4id;lasolita;failure
+01 Mar 2023 09:57:35;1.2.3.4;bit4id;b6PVbJwE;success
+15 Mar 2023 11:23:54;192.168.12.34;bit4id;b6PVbJwE;success
+16 Mar 2023 23:59:57;10.10.23.15;mario;test;failure
+```
+
+Il candidato realizzi uno script shell che estrae da tale file solo le righe
+che indicano operazioni andate a buon fine (il valore del campo
+"esito connessione" è "success"), nascondendo il campo password.
+
+> BONUS POINTS (Da 0 a 5 punti): Il candidato ordini l'elenco così ottenuto in
+> base alla data dalla più vecchia alla più recente.
